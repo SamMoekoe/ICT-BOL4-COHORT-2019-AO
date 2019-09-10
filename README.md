@@ -1,2 +1,1 @@
-About me.html
-Ik ben de beste k m8
+Ik ben Sam en ik ben een pro gamer
