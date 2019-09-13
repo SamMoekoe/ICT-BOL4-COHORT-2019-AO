@@ -8,24 +8,24 @@
     <h1>Domino's</h1>
 
    <script type="text/javascript">
-    alert("U kunt kiezen uit 3 vershillende grote pizza's");
-    const BASISPRIJSSM = 3.99; //Small pizza prijs
-    const BASISPRIJSMD = 5.99; //Medium pizza prijs
-    const BASISPRIJSLG = 8.99; //Large pizza prijs
+    alert("U kunt kiezen uit 3 verschillende grote pizza's"); 
+    const BASISPRIJS_SM = 3.99; //Small pizza prijs
+    const BASISPRIJS_MD = 5.99; //Medium pizza prijs
+    const BASISPRIJS_LG = 8.99; //Large pizza prijs
     
-    alert("Small pizza's: €" +BASISPRIJSSM); 
+    alert("Small pizza's: €" +BASISPRIJS_SM); 
     var aantal1 = prompt();
-    var prijs1 = aantal1 * BASISPRIJSSM; //Prijs van de small pizza's totaal
+    var prijs1 = aantal1 * BASISPRIJS_SM; //Prijs van de small pizza's totaal
     document.write(aantal1+ " small pizza's: " +(prijs1).toFixed(2)+ '<br/>');  
 
-    alert("Medium pizza's: €" +BASISPRIJSMD);
+    alert("Medium pizza's: €" +BASISPRIJS_MD);
     var aantal2 = prompt();
-    var prijs2 = aantal2 * BASISPRIJSMD;
+    var prijs2 = aantal2 * BASISPRIJS_MD;
     document.write(aantal2+ " medium pizza's: " +(prijs2).toFixed(2)+ '<br/>'); //
 
-    alert("Large pizza's: €" +BASISPRIJSLG);
+    alert("Large pizza's: €" +BASISPRIJS_LG);
     var aantal3 = prompt();
-    var prijs3 = aantal3 * BASISPRIJSLG;
+    var prijs3 = aantal3 * BASISPRIJS_LG;
     document.write(aantal3+ " large pizza's: " +(prijs3).toFixed(2)+ '<br/>');
 
 var Totaal = prijs1 + prijs2 + prijs3
