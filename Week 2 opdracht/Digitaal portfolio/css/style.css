@@ -1,0 +1,17 @@
+body{
+background-image: url("Blueback.jpg");
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size:  40px;
+}
+p{
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+a{
+    font-size: 20px;
+    color: red
+}
